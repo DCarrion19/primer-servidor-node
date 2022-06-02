@@ -39,10 +39,10 @@ res.send({ resizeImage: resizeImageBuffer})
 
 })
 
-const port = process.env.port || 4000
+const PORT = process.env.port || 4000
 
-app.listen(port, function(){
+app.listen(PORT, function(){
 
-console.log("Servidor escuchando en el puerto", port)
+console.log("Servidor escuchando en el puerto", PORT)
 
 })
